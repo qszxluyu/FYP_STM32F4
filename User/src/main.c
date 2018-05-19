@@ -153,16 +153,7 @@ static void read_from_mpl(void)
 				quat_print[2]= data[2] * 1.0 / (1<<30);
 				quat_print[3]= data[3] * 1.0 / (1<<30);
 
-
         printf("%7.5f,%7.5f,%7.5f,%7.5f,",quat_print[0],quat_print[1],quat_print[2],quat_print[3]);			
-				
-				/*
-				printf("%7.5f", quat_print[0]);
-				printf("%7.5f", quat_print[1]);
-				printf("%7.5f", quat_print[2]);
-				printf("%7.5f", quat_print[3]);
-				*/
-				
 			
 				/* Specific data packets can be sent or suppressed using USB commands. */
    			
@@ -296,7 +287,8 @@ static void setup_gyro(void)
 }
 
 static void tap_cb(unsigned char direction, unsigned char count)
-{
+{	
+		/*
     switch (direction) {
     case TAP_X_UP:
         MPL_LOGI("Tap X+ ");
@@ -321,10 +313,12 @@ static void tap_cb(unsigned char direction, unsigned char count)
     }
     MPL_LOGI("x%d\n", count);
     return;
+		*/
 }
 
 static void android_orient_cb(unsigned char orientation)
 {
+	/*
 	switch (orientation) {
 	case ANDROID_ORIENT_PORTRAIT:
         MPL_LOGI("Portrait\n");
@@ -341,6 +335,7 @@ static void android_orient_cb(unsigned char orientation)
 	default:
 		return;
 	}
+	*/
 }
 
 
