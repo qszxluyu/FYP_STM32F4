@@ -724,7 +724,7 @@ int main(void)
     /* inv_set_no_motion_time(1000); */
 
     /* Update gyro biases when temperature changes. */
-    inv_enable_gyro_tc();
+    //inv_enable_gyro_tc();
 
     /* This algorithm updates the accel biases when in motion. A more accurate
      * bias measurement can be made when running the self-test (see case 't' in

@@ -152,7 +152,7 @@
           <Type>0</Type>
           <LineNumber>137</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134232180</Address>
+          <Address>134232146</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -162,6 +162,38 @@
           <Filename>C:\Users\瀹?Desktop\F4DiscKeil-MD612-copy\F4DiscKeil\core\driver\stm32L\log_stm32.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\MD62IMU\../core/driver/stm32L/log_stm32.c\137</Expression>
+        </Bp>
+        <Bp>
+          <Number>1</Number>
+          <Type>0</Type>
+          <LineNumber>688</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134253894</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>C:\Users\瀹?Desktop\F4DiscKeil-MD612-copy\F4DiscKeil\User\src\main.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\MD62IMU\../User/src/main.c\688</Expression>
+        </Bp>
+        <Bp>
+          <Number>2</Number>
+          <Type>0</Type>
+          <LineNumber>690</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134253902</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>C:\Users\瀹?Desktop\F4DiscKeil-MD612-copy\F4DiscKeil\User\src\main.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\MD62IMU\../User/src/main.c\690</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
